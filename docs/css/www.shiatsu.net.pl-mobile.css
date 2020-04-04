@@ -1,0 +1,58 @@
+/* wspólne warunki dla mniejszej rozdzielczoœci */
+@media only screen and (max-width: 1000px)
+{
+	div#top {width:100%;}
+	img#logo {width:100% !important; height:auto !important;}
+	ul.menu {width:100%;}
+	ul.menu .br {width:3%;}
+	ul.menu a {font-size:13px;}
+	div#container {width:100%;}
+	div#footer {width:100%;}
+
+	/* !!! - dopasowuje zdjêcia z klas¹ "responsive" do rozmiaru strony */
+	img.responsive {max-width:100% !important; height:auto !important;}
+
+	/* filmy, mapy, kamery */
+	div#tresc iframe {width:100% !important; height:auto !important;}
+
+	/* telefon poziomo i pionowo */
+	@media only screen and (min-width: 100px) and (max-width: 699px)
+	{
+		/* ogólne zasady */
+		body, table, div#frame, div.frame, #error, a.gal, input[type="text"] {font-size:13px;} /* wiêksza czcionka */
+		div#print {display:none;} /* schowaj link drukuj */
+		div#tresc ul, div#tresc ol {padding-left:25px;} /* listy z mniejszym wciêciem */
+		input[type="text"] {padding:2px;} /* pola input trochê wiêksze */
+		h3.tit {font-size:20px;}
+		div#main {padding:12px 0 12px 0; width:96%; margin:auto;}
+
+		/* konstrukcja */
+		div#top {height:100px;}
+
+		/* menu mobilne */
+		div#menu_mobile {display:block;}
+		ul#menu {display:none; width:auto; height:auto; position:absolute; padding:0; border-top:1px solid #e6ca9f;}
+		ul.menu li {float:none; background:#864e00;}
+		ul.menu .br {display:none;}
+		ul.menu .menulink, ul.menu .menulink_cl {padding:7px 12px 7px 12px; border:1px solid #e6ca9f; border-top:none; margin:0;}
+		ul.menu .menulink:hover, ul.menu .menulink_cl:hover {border-top:none;}
+		ul.menu ul {display:block; position:static; width:auto; border:none;}
+		ul.menu ul li {position:static; padding-left:20px; border-top:none; border-bottom:1px solid #e6ca9f;}
+		ul.menu ul li a {width:auto;}
+		li.mobile {display:block;}
+
+		/* tabela na formularz */
+		div.table {display:block;}
+		div.tr {display:block; margin-bottom:6px;}
+		div.td {display:block; padding-bottom:0;}
+	}
+}
+
+/* tablet pionowo - musi byæ tutaj, poza g³ównymi warunkami bo nie ka¿dy tablet to czyta jak jest w œrodku */
+@media only screen and (min-width: 700px) and (max-width: 825px)
+{
+	/* slider */
+	H3.bjqs-header {font-size:15px; margin-bottom:6px;}
+	.bjqs-caption {width:28%; padding:8px; font-size:11px;}
+	ol.bjqs-markers {top:87%;}
+}

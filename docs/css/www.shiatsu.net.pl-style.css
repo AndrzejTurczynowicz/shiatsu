@@ -1,0 +1,582 @@
+BODY
+{
+	margin: 0px;
+	padding: 0px;
+	background-image:url(../images/layout-bg.png);
+	background-repeat:repeat-x;
+	background-color:#feda9a;
+	color: #72463f;
+	font: 14px "Verdana";
+}
+
+table
+{
+	margin:0;
+	color: #72463f;
+	font: 14px "Verdana";
+}
+
+form {margin:0px;}
+label {cursor:pointer;}
+img {border:0px;}
+p {margin-top:0;}
+
+input::-moz-focus-inner /*Remove button padding in FF*/
+{ 
+    border: 0;
+    padding: 0;
+}
+
+div.clear
+{
+	clear:both;
+	overflow:hidden;
+}
+
+a:link, a:visited
+{
+	color: #e36c00;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover
+{
+	color: #864000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+div#error
+{
+	background: #cc0001;
+	background-image: url(../images/images-wyk.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+	padding:10px 10px 10px 60px;
+	text-align:center;
+	font-weight:bold;
+	color:#ffffff;
+	font-size:13px;
+	margin-top:12px;
+	margin-bottom:12px;
+	min-height:43px;
+	height: auto;
+}
+
+div#error a:link, div#error a:visited
+{
+	color: #93deff;
+	text-decoration: underline;
+}
+
+div#error a:hover
+{
+	color: white;
+	text-decoration: underline;
+}
+
+/* tooltip */
+
+a.tooltip:hover {background:transparent; text-decoration:none; cursor:help; color:#333;}
+a.tooltip:hover span {display:block; position:absolute; background:#eef8fb; border:2px solid #8ed0e3;}
+span.tooltip
+{
+	position:absolute;
+	display:none;
+	margin-top:-20px;
+	margin-left:3px;
+	padding:6px 20px 6px 6px;
+	width:250px;
+	font-weight: normal;
+	background:#eef8fb;
+	background-image:url(../images/images-close_win.gif);
+	background-repeat:no-repeat;
+	background-position:top right;
+	border:2px solid #8ed0e3;
+	cursor:pointer;
+}
+span.tooltip ul {padding-left:15px;}
+
+div#path
+{
+	margin-bottom:10px;
+	margin-top:1px;
+}
+a.path:link, a.path:visited, a.path:hover
+{
+	font-weight:normal;
+}
+
+div.admin_link
+{
+	float:right;
+	position:relative;
+	background:#fff;
+}
+div#slider div.admin_link
+{
+	margin-right:10px;
+	margin-bottom:30px;
+}
+
+div#frame, div.frame
+{
+	background:#f4f4f4;
+	border:1px solid #AAA;
+	padding:15px;
+	font-size:12px;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/* link drukuj */
+div#print
+{
+	float:right;
+}
+div#print a
+{
+	font-size:13px;
+}
+
+/* banner naklejany */
+#fl
+{
+	width:100%;
+	position:absolute;
+	padding-top:80px;
+	display:block;
+	clear:both;
+	z-index:100;
+}
+div.banner
+{
+	width:500px;
+	height:320px;
+	display:table;
+	background:white;
+	border:2px solid #888888;
+	box-shadow: 0px 0px 8px 3px #bbb;
+}
+div.banner_in
+{
+	clear:both;
+	padding:14px;
+	text-align:left;
+}
+
+img.banner
+{
+	border:2px solid #888;
+	box-shadow: 0px 0px 8px 3px #bbb;
+}
+img.close
+{
+	float:right;
+	margin-top:13px;
+	margin-right:13px;
+}
+
+table.obrazek
+{
+	border-collapse:collapse;
+	border:1px solid #A8A8A8;
+	border-spacing:0;
+}
+.obrazek td 
+{
+	border: 1px solid #A8A8A8;
+	padding: 4px;
+}
+
+table.normal
+{
+	border-collapse:separate;
+	border-spacing:1px;
+	margin-top:6px;
+}
+.normal td 
+{
+	padding:5px
+}
+
+/* tabela do wydruku */
+table.print
+{
+	border-collapse:collapse;
+	border:1px solid #000;
+}
+.print td
+{
+	border: 1px solid #000;
+}
+
+/* sure form */
+font.big
+{
+	font-size:15px;
+	font-weight:bold;
+}
+
+H3.tit, H4.tit, H3.tit_start, H2.tit, H1.tit
+{
+	font-family: 'Arial';
+	font-size: 24px;
+	color: #5f320e;
+	font-weight:bold;
+	margin:0;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+H4.tit
+{
+	margin-top:15px;
+	font-size:18px;
+	text-transform: none;
+}
+
+span.first
+{
+	color: #cc0000;
+}
+
+span.tit
+{
+	color: #4d4d4d;
+	font-weight:bold;
+	font-size:15px;
+}
+
+font.error, span.error
+{
+	color: #DD0000;
+	font-weight: bold;
+	
+}
+
+div.line
+{
+	background: #c8b6ae;
+	height: 1px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	overflow:hidden;
+	clear:both;
+}
+
+img.miniatura
+{
+	border:1px solid #aaaaaa;
+}
+
+div.block
+{
+	margin-top:6px;
+	margin-bottom:6px;
+}
+
+div.pause
+{
+	margin-top:2px;
+	margin-bottom:2px;
+	height:2px;
+	overflow:hidden;
+	clear:both;
+}
+
+fieldset
+{
+	padding: 7px 7px 7px 7px;
+	border: 1px solid #787878;
+}
+
+input, textarea, select
+{ 
+	background: #f3f3f3;
+	border: 1px solid #aaa;
+	font: 12px "Verdana";
+}
+
+input.button
+{
+	background: transparent;
+	background-image: url(../images/images-btn.gif);
+	border:0px;
+	height:21px;
+	width: 72px;
+	font: 12px "Tahoma";
+	color: #676767;
+	cursor: pointer;
+}
+
+input.trans
+{
+	background: transparent;
+	border: 0px;
+	vertical-align:middle;
+}
+
+img.el {display:block}
+
+
+/* button gif */
+img.btn
+{
+	border:0px;
+	margin-right:3px;
+	margin-bottom:3px;
+}
+
+/* tabelka na formularz */
+div.table
+{
+	display:table;
+	margin-top:12px;
+}
+div.tr
+{
+	display:table-row;
+}
+div.td
+{
+	display:table-cell;
+	vertical-align:middle;
+	padding: 4px 6px 4px 0;
+}
+div.td input[type="text"], div.td textarea
+{
+	width:290px;
+}
+div.td textarea
+{
+	height:100px;
+}
+
+tr.highlight {background:#c5f051;}
+
+
+/* -- galeria, video --*/
+
+/* miniatury */
+div.gal, div.gal_i, img.gal, a.noimg
+{
+	width:130px; /* gal_mini_width */
+	height:97px; /* gal_mini_height */
+	display:block;
+}
+
+div.gal, div.gal_i
+{
+	border:1px solid #aaa;
+	background:#fff;
+	height: 123px; /* gal_mini_width + 2 linijki tekstu (ok. 26px) */
+	padding:8px;
+	text-align:center;
+	float:left;
+	margin-right:7px;
+	margin-top:7px;
+	overflow:hidden;
+}
+
+/* miniatury w galerii nie maj¹ podpisów */
+div.gal_i
+{
+	height:auto;
+}
+
+div.gal_i a
+{
+	font-size:12px;
+}
+
+/* brak wybranego zdjecia */
+a.noimg
+{
+	background:#eee;
+}
+a.gal
+{
+	margin-top:3px;
+	display:block;
+	font:12px "Tahoma";
+}
+div.gal_opis
+{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/* ostatnia galeria, ostatni film */
+div.gal_short
+{
+	width:280px;
+	min-height:110px;
+	height:auto;
+}
+
+div.gal_sh1
+{
+	width:140px;
+	float:left;
+}
+
+div.gal_sh2
+{
+	width:140px;
+	float:left;
+}
+
+/* zdjêcie wybrane zosta³o skasowane */
+a.noimg
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:6px;
+	display:block;
+	border:1px solid #aaa;
+	background:#f7f7f7;
+}
+
+/* zdjecia do artyku³ów */
+img.obrazek
+{
+	border:1px solid #989898;
+	margin-bottom:5px;
+}
+
+/* menu boczne lub górne */
+ul.menu {list-style:none; z-index:1000; margin:0; margin-left:auto; margin-right:auto; padding:0; width:980px; background-image:url(../images/layout-menu_bg.png); height:54px;}
+ul.menu * {margin:0; padding:0}
+ul.menu a {display:block; color:#e7c88d; font-weight:bold; text-decoration:none; text-transform:uppercase; font-family:"Arial"; font-size:15px; border-top:6px solid #724200;}
+ul.menu li {float:left} /* float:left dla górnego menu */
+
+/* odstêp pomiêdzy przyciskami - tylko dla menu górnego */
+ul.menu .br
+{
+	width:33px;
+	height:48px;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	float:left; /* float:left dla górnego menu */
+}
+
+/* przycisk w menu - zwyk³y i po najechaniu */
+ul.menu .menulink, ul.menu .menulink_cl
+{
+	padding:14px 0 12px 0;
+}
+
+/* przycisk w menu po najechaniu */
+ul.menu .menulink:hover
+{
+	color:#FFF;
+	border-top:6px solid #f7dda5;
+}
+
+ul.menu .menulink_cl /* wybrany przycisk */
+{
+	color:#fff;
+	border-top:6px solid #f7dda5;
+}
+ul.menu .menulink_cl:hover, ul.menu .menuhover_cl /* wybrany przycisk po najechaniu */
+{
+	color: #fff;
+	border-top:6px solid #724200;
+}
+div#menu_mobile
+{
+	display:none;
+	height:26px;
+	padding:4px;
+	background:#864e00;
+}
+
+/* jêzyki */
+a.lang:link, a.lang:visited
+{
+	color:#777;
+	text-decoration:none;
+}
+
+a.lang:hover
+{
+	color:#888;
+}
+
+/* wybrany jêzyk */
+a.lang_cl:link, a.lang_cl:visited, a.lang_cl:hover
+{
+	text-decoration:underline;
+	color:#444;
+}
+
+
+div#flags
+{
+	margin-top:22px;
+	margin-left:15px;
+}
+
+/* --- konstrukcja --- */
+img#logo
+{
+	display:block;
+	width:980px;
+	height:217px;
+	margin:auto;
+}
+
+div#container
+{
+	width:980px;
+	margin:auto;
+	min-height:200px;
+	background:#f7efd9;
+}
+div#main
+{
+	padding:18px 25px 25px 20px;
+}
+
+div#tresc
+{
+	margin-top:15px;
+}
+
+div#footer
+{
+	background:#864e00;
+	width:980px;
+	min-height:65px;
+	height:auto;
+	margin:auto;
+	font-size:12px;
+	font-family: "Arial";
+	border-top:6px solid #724200;
+	color:#f7dda6;
+	line-height:120%;
+}
+
+div#copy
+{
+	float:left;
+	padding:22px 0 11px 10px;
+}
+div#web
+{
+	float:right;
+	padding:9px 10px 10px 0;
+}
+div#web a:link, div#web a:visited
+{
+	color:#f7dda6;
+	font-weight:normal;
+}
+div#web a:hover
+{
+	color:#f1c263;
+	font-weight:normal;
+}
